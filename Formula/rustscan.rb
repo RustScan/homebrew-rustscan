@@ -6,9 +6,9 @@ class Rustscan < Formula
 
   desc "Faster Nmap Scanning with Rust" 
   homepage "https://github.com/brandonskerritt/rustscan"
-  url "https://github.com/RustScan/RustScan/archive/1.5.2.tar.gz"
-  sha256 "58bb4e7d17b794607b397f4380bb7bd2800d2144280517747b785fcd7a51adaf"
-  version "1.5.2"
+  url "https://github.com/RustScan/RustScan/archive/1.6.0.tar.gz"
+  sha256 "a4ebe4b8eda88dd10d52d961578c95b5427cc34b3bf41e5df729a37122c68965"
+  version "1.6.0"
   depends_on "rust" => :build
 
   def install
